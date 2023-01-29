@@ -1,0 +1,270 @@
+type_adj,Source,Target,Weight
+fight,Carrie,Dan,11
+fight,Lucas,Nathan,11
+fight,Dan,Nathan,8
+fight,Brooke,Peyton,6
+fight,Dan,Deb,6
+fight,Peyton,Psycho Derek,6
+fight,Brooke,Rachel,5
+fight,Brooke,Xavier,5
+fight,Chase,Chuck,5
+fight,Dan,Lucas,5
+fight,Chris,Nathan,4
+fight,Dan,Keith,4
+fight,Dimitri,Nathan,4
+fight,Katie,Quinn,4
+fight,Billy,Dan,3
+fight,Brooke,Dan,3
+fight,Brooke,Lucas,3
+fight,Dan,Karen,3
+fight,Dan,Peyton,3
+fight,Jimmy,Russ,3
+fight,Alex,Josh,2
+fight,Alex,Julian,2
+fight,Alex,Mia,2
+fight,Alex,Millicent,2
+fight,Billy,Dimitri,2
+fight,Brooke,Millicent,2
+fight,Brooke,Psycho Derek,2
+fight,Brooke,Tara,2
+fight,Carrie,Haley,2
+fight,Chase,Chris,2
+fight,Chase,Chuck's Dad,2
+fight,Chuck,Jamie,2
+fight,Chuck,Nathan,2
+fight,Clay,Dan,2
+fight,Clay,Katie,2
+fight,Damien,Haley,2
+fight,Damien,Nathan,2
+fight,Felix,Lucas,2
+fight,Haley,Rachel,2
+fight,Haley,Taylor,2
+fight,Julian,Mouth,2
+fight,Lucas,Peyton,2
+fight,Nathan,Officer Stevens,2
+fight,Nathan,Sergei,2
+fight,Sam,Xavier,2
+fight,Alex,Brooke,1
+fight,Alex,Chase,1
+fight,Alex,Chris,1
+fight,Alex,Peter,1
+fight,Alexander,Victoria,1
+fight,Andy,Dan,1
+fight,Ashley,Bevin,1
+fight,Bankers,Brooke,1
+fight,Bar Patron,Nathan,1
+fight,Basketball Team,Lucas,1
+fight,Basketball Team,Nathan,1
+fight,Billy,Haley,1
+fight,Billy,Nathan,1
+fight,Brooke,Haley,1
+fight,Brooke,Jock,1
+fight,Brooke,Julian,1
+fight,Brooke,Missy,1
+fight,Brooke,Nick,1
+fight,Brooke,Sam,1
+fight,Brooke,Sylvia,1
+fight,Brooke,Ted,1
+fight,Brooke,Tim,1
+fight,Brooke,Zombie bridesmaid #2,1
+fight,Brooke,Zombie bridesmaid #4,1
+fight,Brooke,Zombie bridesmaid #5,1
+fight,Carrie,Deb,1
+fight,Chase,Clay,1
+fight,Chase,Mia,1
+fight,Chris,Lucas,1
+fight,Chris,Poker Players,1
+fight,Chris,Sergei,1
+fight,Chuck,Chuck's Dad,1
+fight,Chuck,Julian,1
+fight,Chuck's Mom,Haley,1
+fight,Clay,David,1
+fight,Clay,Drug Dealer,1
+fight,Clay,Ian,1
+fight,Conrad,Mouth,1
+fight,Cooper,Dan,1
+fight,Damien,Dan,1
+fight,Dan,Dimitri,1
+fight,Dan,Haley,1
+fight,Dan,Jimmy's mom,1
+fight,Dan,Mouth,1
+fight,Dan,Officer Burns,1
+fight,Dan,Owen,1
+fight,Dan,Skills,1
+fight,Dan,Thug,1
+fight,Dan,Thug #2,1
+fight,Dan,Thug #3,1
+fight,Dan,Thug #4,1
+fight,Dan,Whitey,1
+fight,Dan's Henchman,Peyton,1
+fight,Daunte,Haley,1
+fight,Daunte,Nathan,1
+fight,Daunte & Bear,Nathan,1
+fight,David,Quinn,1
+fight,Deb,Lucas,1
+fight,Deb,Pharmacist,1
+fight,Dimitri,Zoran,1
+fight,Drug Dealer,Quinn,1
+fight,Fan,Nathan,1
+fight,Felix,Keith,1
+fight,Felix,Mouth,1
+fight,Fergie,Jamie,1
+fight,Gabe,Lucas,1
+fight,Girls,Sam,1
+fight,Greg,Nathan,1
+fight,Greg's friend,Nathan,1
+fight,Haley,Officer Stevens,1
+fight,Haley,Randy,1
+fight,Haley,Renee,1
+fight,Haley,Sue,1
+fight,Ian,Julian,1
+fight,Ian,Nathan,1
+fight,Jack,Xavier,1
+fight,Jamie,Junk,1
+fight,Jason,Nathan,1
+fight,Jason,Quentin,1
+fight,Jerome,Nathan,1
+fight,Jules,Karen,1
+fight,Julian,Loud Drunk,1
+fight,Julian,Lucas,1
+fight,Julian,Nick Lachey,1
+fight,Julian,Officer Stevens,1
+fight,Julian,Peter,1
+fight,Julian,Skills,1
+fight,Julian,Xavier,1
+fight,Julian,Zombie bridesmaid #1,1
+fight,Julian,Zombie bridesmaid #2,1
+fight,Julian,Zombie bridesmaid #3,1
+fight,Julian,Zombie bridesmaid (unknown),1
+fight,Karen,Lucas,1
+fight,Karen,Whitey,1
+fight,Kylie,Quinn,1
+fight,Lindsey,Peyton,1
+fight,Lucas,Masonboro Player,1
+fight,Lucas,Psycho Derek,1
+fight,Lucas,Ronnie,1
+fight,Lucas,Russ,1
+fight,Lucas,Russ's friend,1
+fight,Lucas,Tim,1
+fight,Marcus,Skills,1
+fight,Masonboro Player,Nathan,1
+fight,Masonboro Player,Tim,1
+fight,Mouth,Shelley's Ex,1
+fight,Mouth,Skills,1
+fight,Nathan,Poker Players,1
+fight,Nathan,Punch Guy,1
+fight,Nathan,Russ's friend,1
+fight,Nathan,Skills,1
+fight,Nicki,Peyton,1
+fight,Owen,Rachel's dealer,1
+fight,Peyton,Ravens Mascot,1
+fight,Police Officer,Tim,1
+fight,Psycho Derek,Real Derek,1
+fight,Quentin,Xavier,1
+fight,Quinn,Taylor,1
+fight,Quinn,Zombie bridesmaid #5,1
+fight,Rachel,Russ,1
+fight,Rachel,Russ's friend,1
+fight,Russ,Security Guard #1,1
+fight,Russ's friend,Security Guard #2,1
+fight,Skills,Tim,1
+fight,Tara,Xavier,1
+kiss,Haley,Nathan,167
+kiss,Brooke,Julian,85
+kiss,Lucas,Peyton,68
+kiss,Clay,Quinn,56
+kiss,Brooke,Lucas,39
+kiss,Millicent,Mouth,34
+kiss,Lindsey,Lucas,16
+kiss,Jake,Peyton,15
+kiss,Alex,Chase,13
+kiss,Chase,Mia,12
+kiss,Karen,Keith,11
+kiss,Brooke,Felix,10
+kiss,Deb,Skills,10
+kiss,Andy,Karen,9
+kiss,Dan,Rachel,8
+kiss,Brooke,Chase,7
+kiss,Dan,Deb,7
+kiss,Jules,Keith,7
+kiss,Nathan,Peyton,6
+kiss,Alice,Mouth,5
+kiss,Anna,Lucas,5
+kiss,Dan,Karen,5
+kiss,Alexander,Victoria,4
+kiss,Brooke,Mouth,4
+kiss,Brooke,Nick,4
+kiss,Chase,Tara,4
+kiss,Clay,Sara,4
+kiss,Mouth,Shelley,4
+kiss,Alex,Josh,3
+kiss,Chris,Haley,3
+kiss,Chris,Tara,3
+kiss,Cooper,Rachel,3
+kiss,David,Quinn,3
+kiss,Erica,Mouth,3
+kiss,Grubbs,Miranda,3
+kiss,Haley,Lucas,3
+kiss,Mouth,Rachel,3
+kiss,Pete,Peyton,3
+kiss,Alex,Alexander,2
+kiss,Bevin,Skills,2
+kiss,Brooke,Owen,2
+kiss,Carrie,Nathan,2
+kiss,Chase,Peyton,2
+kiss,David,Taylor,2
+kiss,Gigi,Mouth,2
+kiss,Jack,Sam,2
+kiss,Lauren,Skills,2
+kiss,Nathan,Rachel,2
+kiss,Ted,Victoria,2
+kiss,Abercrombie,Brooke,1
+kiss,Alex,Clay,1
+kiss,Alexander,Brooke,1
+kiss,Anna,Darby,1
+kiss,Anna,Peyton,1
+kiss,Bevin,Fergie,1
+kiss,Bevin,Rachel,1
+kiss,Brooke,Club Guy,1
+kiss,Brooke,Nathan,1
+kiss,Brooke,Nick Lachey,1
+kiss,Brooke,Pete,1
+kiss,Brooke,Peyton,1
+kiss,Brooke,Psycho Derek,1
+kiss,Brooke,Tina,1
+kiss,Cheerleader,Mouth,1
+kiss,Chris,Cinnamon,1
+kiss,Chris,Peyton,1
+kiss,Chris,Pony,1
+kiss,Chris,Strip Club Server,1
+kiss,Clay,Kylie,1
+kiss,Club Patron #1,Club Patron #2,1
+kiss,Dan,Haley,1
+kiss,Dan,Patty,1
+kiss,David,Lauren,1
+kiss,Deb,Keith,1
+kiss,Gigi,Nathan,1
+kiss,Jake,Nicki,1
+kiss,Josh,Other Guy,1
+kiss,Julian,Missy,1
+kiss,Julian,Peyton,1
+kiss,Karen,Larry Sawyer,1
+kiss,Lauren,Mouth,1
+kiss,Lucas,Nicki,1
+kiss,Lucas,Rachel,1
+kiss,Man on beach,Woman on beach,1
+kiss,Mayor Mullins,Prostitutes,1
+kiss,Melody,Nathan,1
+kiss,Millicent,Owen,1
+kiss,Missy,Nick Lachey,1
+kiss,Mouth,Tina,1
+kiss,Nick,Tina,1
+kiss,Party kid #1,Party kid #2,1
+kiss,Party kid #3,Party kid #4,1
+kiss,Peyton,Psycho Derek,1
+kiss,Student #1,Student #2,1
+kiss,TRIC patron #1,TRIC patron #2,1
+kiss,Tric Patron #1,Tric Patron #2,1
+kiss,Tric Patron #3,Tric Patron #4,1
+kiss,kid on bus #1,kid on bus #2,1
+kiss,kid on bus #3,kid on bus #4,1
