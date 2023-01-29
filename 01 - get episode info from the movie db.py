@@ -23,7 +23,7 @@ from urllib import parse
 # constants
 # --------------------------------------------------------------------------------------------------
 
-API_TOKEN = 'enter token here'
+API_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNGQ2NDBlMWRiMjliMTY5OWFhZjczZTU2Yzk2ZDA0MiIsInN1YiI6IjYyNmYwNWU2MDllZDhmMDA2OGZkYWQ0OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.7nLLQobrAMS2Kw_hWi1WWyQdPX_tWUmpLzJIB5wNWyA'
 
 # --------------------------------------------------------------------------------------------------
 # functions
@@ -115,12 +115,21 @@ for s, c in episode_counts.items():
                                              meta=['season_number', 'episode_number'])
                              .assign(type='guest stars') )
             
+            
+            df_temp_crew = ( pd.json_normalize(json.loads(r_ep.text),
+                                             record_path=['credits','crew'],
+                                             meta=['season_number', 'episode_number'])
+                             .assign(type='crew') )
+            
             df_cast = ( pd.concat([df_cast, 
                                    df_temp_cast[[f for f in df_temp_cast.columns if f in cast_cols]], 
                                    df_temp_gs[[f for f in df_temp_gs.columns if f in cast_cols]]])
                           .reset_index(drop=True) )
 
-
+s=1
+c=1
+df_temp_crew[df_temp_crew['department']=='Acting']
+df_temp_crew['department'].unique()
 # --------------------------------------------------------------------------------------------------
 # output to csv
 # --------------------------------------------------------------------------------------------------
