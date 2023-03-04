@@ -81,8 +81,9 @@ df2 = ( df.groupby(['person_1', 'person_2'], as_index=False)['time'].count()
           .query('count1 > 1 | count2 > 1 | person_1 == "Grubbs" | person_2 == "Grubbs"') )
 
 
-df_cast.query('season_number==5 & episode_number==8')[['character', 'type']]
+df_cast.query('season_number==1 & episode_number==1')[['character', 'type']]
 
+df_cast.query('character=="Mia Catalano"')
 
 
 
