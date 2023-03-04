@@ -25,11 +25,11 @@ series_id = ia.search_movie('one tree hill')[0].movieID
 
 
 # --------------------------------------------------------------------------------------------------
-# retrieve the episodes
+# retrieve basic info about each episode
 # --------------------------------------------------------------------------------------------------
 
 series = ia.get_movie(series_id)
-ia.update(series, info=['episodes', 'full_credits'])
+ia.update(series, info=['episodes'])
 eps = series['episodes']
            
 key_list = ['season', 'episode', 'title', 'episode', 'original air date', 'plot', 'rating', 'votes']
@@ -40,22 +40,29 @@ df_eps = pd.concat([pd.DataFrame({k:[v] for k, v in eps[s][e].items() if k in ke
                    ignore_index=True)
 
 
-df_eps.to_csv(r'C:\users\gilbe\projects\othk\episodes.csv', index=False)
-
-
 # --------------------------------------------------------------------------------------------------
 # retrieve the cast for each episode
 # --------------------------------------------------------------------------------------------------
 
 df_roles = None
+df_runtime = None
 for s, e, movieID in zip(df_eps['season'], df_eps['episode'], df_eps['movieID']):
-
-    # get the episode full cast (in this case, the "movie" is the episode)
+  
+    # get the episode info with full cast (in this case, the "movie" is the individual episode)
     ep = ia.get_movie(movieID)
     ia.update(ep, 'full_credits')
     cast = ep['cast']
     
-    # fiterate through the cast members
+    
+    # retrieve the runtime per episode
+    df_runtime = pd.concat([df_runtime, 
+                            pd.DataFrame({'season' : [s],
+                                          'episode' : [e],
+                                          'runtime_min' : [ep['runtime'][0]]})] )  
+    
+    
+    # iterate through the cast members and roles
+    # occasionally, an actor may play multiple roles in an episode
     for c in cast:
         if isinstance(c.currentRole, list):
             roles = c.currentRole
@@ -71,6 +78,17 @@ for s, e, movieID in zip(df_eps['season'], df_eps['episode'], df_eps['movieID'])
                                             'actor_name' : [c['name']] * len(roles),
                                             'personID' : [c.personID] * len(roles) })],
                              ignore_index=True)
-        
-    
+
+
+# add the runtime to the episodes dataframe
+df_eps = df_eps.merge(df_runtime,
+                      how='left',
+                      on=['season', 'episode'])
+
+
+# --------------------------------------------------------------------------------------------------
+# output the data
+# --------------------------------------------------------------------------------------------------
+
+df_eps.to_csv(r'C:\users\gilbe\projects\othk\episodes.csv', index=False)
 df_roles.to_csv(r'C:\users\gilbe\projects\othk\episode_roles.csv', index=False)
