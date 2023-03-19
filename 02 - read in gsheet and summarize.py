@@ -12,6 +12,7 @@ Created on Wed Jan  4 16:45:30 2023
 import gspread
 from numpy import where
 from oauth2client import service_account
+from os import path
 import pandas as pd
 
 
@@ -34,9 +35,109 @@ OUTPUT_PATH = r'C:\Users\gilbe\projects\othk'
 creds = service_account.ServiceAccountCredentials.from_json_keyfile_name(CREDS_PATH, SCOPE)
 client = gspread.authorize(creds)
 
-# read in the sheet data
+
+# read in the event data
 sheet = client.open(WORKBOOK_NAME).worksheet('data')
-df = pd.DataFrame(sheet.get_all_records())
+df = ( pd.DataFrame(sheet.get_all_records())
+         .pipe(lambda df_x: 
+                   df_x.melt(id_vars=[c for c in df_x if 'person' not in c], 
+                             value_vars=['person_1', 'person_2'], 
+                             var_name='person_nbr', 
+                             value_name='person_name', 
+                             ignore_index=True)) )
+
+
+# read in the episode and cast data
+df_ep = pd.read_csv(path.join(path.join(OUTPUT_PATH, 'data'), 'episodes.csv'))
+df_roles = pd.read_csv(path.join(path.join(OUTPUT_PATH, 'data'), 'episode_roles.csv'))
+
+
+# --------------------------------------------------------------------------------------------------
+# normalize and check role names
+# --------------------------------------------------------------------------------------------------
+
+renames = { 'Millicent' : 'Millie', 
+            'Derek Sommers' : 'Real Derek', 
+            'Derek' : 'Psycho Derek',
+            'Edwards' : 'Jimmy',
+            'Ian Banks' : 'Psycho Derek'}
+
+# characters with a small number of appearances who should have a split name
+split_exceptions = ['Bevin Mirskey',
+                    'Chuck Skolnik',
+                    'Cooper Lee',
+                    'Damien West',
+                    'Daunte Jones',
+                    'David Fletcher',
+                    'Ellie Harp',
+                    'Erica Marsh',
+                    'Ian Kellerman',
+                    'Jimmy Edwards',
+                    'Kylie Frost',
+                    'Larry Sawyer',
+                    'Renee Richardson',
+                    'Peyton Scott',
+                    'Sara Evans',
+                    'Shelley Simon',
+                    'Taylor James',
+                    'Ted Davis',
+                    'Tim Smith']
+
+
+# clean the names from event data
+df['join_name'] = df['person_name'].replace(renames)
+
+
+# clean the names from imdb data
+#     replace 'self' with the actor name
+#     extract nicknames (e.g. Mouth)
+#     if the role appeared at least 10 times, split out the first name
+df_roles['join_name'] = ( pd.Series(where(df_roles['role_name'].isin(['Themselves', 
+                                                                      'Self']),
+                                          df_roles['actor_name'],
+                                    where(df_roles['role_name'].str.contains("'.*'"),
+                                          df_roles['role_name'].str.extract(".* '(.*)' .*", 
+                                                                            expand=False),
+                                    where((df_roles.groupby('role_name')['role_name']
+                                                   .transform('count') >= 10)
+                                              | df_roles['role_name'].isin(split_exceptions),
+                                          df_roles['role_name'].str.extract('(.*?)(?: |$).*', 
+                                                                            expand=False),
+                                          df_roles['role_name']) )))
+                            .replace(renames) )
+
+
+
+# check for names in events, not in roles
+df_check = ( df['join_name'].value_counts().reset_index(name='join_name')
+               .merge(df_roles['join_name'].value_counts().reset_index(),
+                      how='left',
+                      on='index',
+                      suffixes=['_event', '_role'])
+               .query("join_name_role != join_name_role") )
+
+print(chr(10)*2 + 'The following roles are in the event data, but did not join to the imdb data:' + chr(10))
+print(df_check)
+
+
+# check for same actor, multiple role names
+#    if it's the same role spelled different ways, make sure the join_name is the same
+df_check = ( df_roles.drop_duplicates(subset=['actor_name', 'join_name'])
+                     .groupby(['actor_name']).agg(count=('join_name', 'count'),
+                                                  list=('join_name', list))
+                     .query("count > 1")
+                     .sort_values('count', ascending=True) )
+
+i = 0
+while i < len(df_check)-1:
+    print(df_check[i:i+10])
+    i += 10
+
+
+df_roles[df_roles['role_name'].str.contains('Edwards')]
+,,df[df['join_name'].str.contains('Jason')]
+
+
 
 
 # add the partner count for each person
