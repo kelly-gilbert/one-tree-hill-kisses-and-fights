@@ -13,6 +13,7 @@ Created: 2023-03-03
 """
 
 
+from csv import QUOTE_ALL
 import imdb
 import pandas as pd
 
@@ -33,7 +34,7 @@ ia.update(series, info=['episodes'])
 eps = series['episodes']
            
 key_list = ['season', 'episode', 'title', 'episode', 'original air date', 'plot', 'rating', 'votes']
-df_eps = pd.concat([pd.DataFrame({k:[v] for k, v in eps[s][e].items() if k in key_list} 
+df_eps = pd.concat([pd.DataFrame({k:[v.strip()] for k, v in eps[s][e].items() if k in key_list} 
                                  | {'movieID' : [eps[s][e].movieID]}) 
                     for s in eps.keys()
                     for e in eps[s].keys()],
@@ -71,7 +72,7 @@ for s, e, movieID in zip(df_eps['season'], df_eps['episode'], df_eps['movieID'])
         
         # add each role to the dataframe
         df_roles = pd.concat([df_roles,
-                              pd.DataFrame({'season' : s * len(roles),
+                              pd.DataFrame({'season' : [s] * len(roles),
                                             'episode' : [e] * len(roles),
                                             'characterID' : [r.characterID for r in roles],
                                             'role_name' : [r['name'] for r in roles],
@@ -90,5 +91,10 @@ df_eps = df_eps.merge(df_runtime,
 # output the data
 # --------------------------------------------------------------------------------------------------
 
-df_eps.to_csv(r'C:\users\gilbe\projects\othk\episodes.csv', index=False)
-df_roles.to_csv(r'C:\users\gilbe\projects\othk\episode_roles.csv', index=False)
+df_eps.to_csv(r'C:\users\gilbe\projects\othk\data\outputs\episodes.csv', 
+              index=False, 
+              quoting=QUOTE_ALL)
+
+df_roles.to_csv(r'C:\users\gilbe\projects\othk\data\outputs\episode_roles.csv', 
+                index=False, 
+                quoting=QUOTE_ALL)
