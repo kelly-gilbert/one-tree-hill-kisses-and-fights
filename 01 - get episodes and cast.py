@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-get_episodes_and_cast.py
+01 - get episodes and cast
 
 Retrieves episode and cast data from IMDB and outputs to csv files.
 

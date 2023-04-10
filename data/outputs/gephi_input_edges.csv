@@ -1,247 +1,242 @@
-Source,Target,Weight
-Abercrombie,Brooke,1
-Alex,Alexander,1
-Alex,Brooke,1
-Alex,Chase,1
-Alex,Chris,1
-Alex,Clay,1
-Alex,Josh,1
-Alex,Julian,1
-Alex,Mia,1
-Alex,Millie,1
-Alex,Peter,1
-Alexander,Brooke,1
-Alexander,Victoria,1
-Alice,Mouth,1
-Andy,Dan,1
-Andy,Karen,1
-Anna,Darby,1
-Anna,Lucas,1
-Anna,Peyton,1
-Ashley,Bevin,1
-Bankers,Brooke,1
-Bar Patron,Nathan,1
-Basketball Team,Lucas,1
-Basketball Team,Nathan,1
-Bear,Nathan,1
-Bevin,Fergie,1
-Bevin,Rachel,1
-Bevin,Skills,1
-Billy (Drug Dealer),Clay,1
-Billy (Drug Dealer),Dan,1
-Billy (Drug Dealer),Dimitri,1
-Billy (Drug Dealer),Haley,1
-Billy (Drug Dealer),Nathan,1
-Billy (Drug Dealer),Quinn,1
-Brooke,Chase,1
-Brooke,Chris,1
-Brooke,Club Boy,1
-Brooke,Dan,1
-Brooke,Felix,1
-Brooke,Haley,1
-Brooke,Jock,1
-Brooke,Julian,1
-Brooke,Lucas,1
-Brooke,Millie,1
-Brooke,Missy,1
-Brooke,Mouth,1
-Brooke,Nathan,1
-Brooke,Nick (teacher),1
-Brooke,Nick Lachey,1
-Brooke,Owen,1
-Brooke,Pete Wentz,1
-Brooke,Peyton,1
-Brooke,Psycho Derek,1
-Brooke,Rachel,1
-Brooke,Sam,1
-Brooke,Sylvia,1
-Brooke,Tara,1
-Brooke,Ted,1
-Brooke,Tia,1
-Brooke,Tim,1
-Brooke,Xavier,1
-Brooke,Zombie bridesmaid #2,1
-Brooke,Zombie bridesmaid #4,1
-Brooke,Zombie bridesmaid #5,1
-Carrie,Dan,1
-Carrie,Deb,1
-Carrie,Haley,1
-Carrie,Nathan,1
-Chase,Chris,1
-Chase,Chuck,1
-Chase,Chuck's Dad,1
-Chase,Clay,1
-Chase,Mia,1
-Chase,Peyton,1
-Chase,Tara,1
-Cheerleader,Mouth,1
-Chris,Cinnamon,1
-Chris,Guitar Tech?,1
-Chris,Haley,1
-Chris,Lucas,1
-Chris,Nathan,1
-Chris,Peyton,1
-Chris,Poker Players,1
-Chris,Pony,1
-Chris,Sergei,1
-Chris,Strip Club Server,1
-Chris,Tara,1
-Chuck,Chuck's Dad,1
-Chuck,Jamie,1
-Chuck,Julian,1
-Chuck,Nathan,1
-Chuck's Mom,Haley,1
-Clay,Dan,1
-Clay,David,1
-Clay,Ian,1
-Clay,Katie,1
-Clay,Kylie,1
-Clay,Quinn,1
-Clay,Sara,1
-Conrad,Mouth,1
-Cooper,Dan,1
-Cooper,Rachel,1
-Damien,Dan,1
-Damien,Haley,1
-Damien,Nathan,1
-Dan,Deb,1
-Dan,Dimitri,1
-Dan,Haley,1
-Dan,Karen,1
-Dan,Keith,1
-Dan,Lucas,1
-Dan,Mouth,1
-Dan,Mrs. Edwards,1
-Dan,Nathan,1
-Dan,Officer Burns,1
-Dan,Owen,1
-Dan,Patty,1
-Dan,Peyton,1
-Dan,Rachel,1
-Dan,Skills,1
-Dan,Thug,1
-Dan,Thug #2,1
-Dan,Thug #3,1
-Dan,Thug #4,1
-Dan,Whitey,1
-Dan's Henchman,Peyton,1
-Daunte,Haley,1
-Daunte,Nathan,1
-David,Lauren,1
-David,Quinn,1
-David,Taylor,1
-Deb,Keith,1
-Deb,Lucas,1
-Deb,Pharmacist,1
-Deb,Skills,1
-Dimitri,Nathan,1
-Dimitri,Zoran,1
-Erica,Mouth,1
-Fan,Nathan,1
-Felix,Keith,1
-Felix,Lucas,1
-Felix,Mouth,1
-Fergie,Jamie,1
-Friend #1,Lucas,1
-Friend #1,Nathan,1
-Friend #1,Rachel,1
-Friend #1,Security Guard #2,1
-Gabe,Lucas,1
-Gigi,Mouth,1
-Gigi,Nathan,1
-Girls,Sam,1
-Greg,Nathan,1
-Greg's friend,Nathan,1
-Grubbs,Miranda,1
-Haley,Lucas,1
-Haley,Nathan,1
-Haley,Officer Stevens,1
-Haley,Rachel,1
-Haley,Randy,1
-Haley,Renee,1
-Haley,Sue,1
-Haley,Taylor,1
-Ian,Julian,1
-Ian,Nathan,1
-J-Fed,Nathan,1
-J-Fed,Quentin,1
-Jack,Sam,1
-Jack,Xavier,1
-Jake,Nicki,1
-Jake,Peyton,1
-Jamie,Junk,1
-Jerome,Nathan,1
-Jimmy,Rusty,1
-Josh,Other Guy,1
-Jules,Karen,1
-Jules,Keith,1
-Julian,Loud Drunk,1
-Julian,Lucas,1
-Julian,Missy,1
-Julian,Mouth,1
-Julian,Nick Lachey,1
-Julian,Officer Stevens,1
-Julian,Peter,1
-Julian,Peyton,1
-Julian,Skills,1
-Julian,Xavier,1
-Julian,Zombie bridesmaid #1,1
-Julian,Zombie bridesmaid #2,1
-Julian,Zombie bridesmaid #3,1
-Julian,Zombie bridesmaid (unknown),1
-Karen,Keith,1
-Karen,Larry Sawyer,1
-Karen,Lucas,1
-Karen,Whitey,1
-Katie,Quinn,1
-Kylie,Quinn,1
-Lauren,Mouth,1
-Lauren,Skills,1
-Lindsey,Lucas,1
-Lindsey,Peyton,1
-Lucas,Masonboro Player,1
-Lucas,Nathan,1
-Lucas,Nicki,1
-Lucas,Peyton,1
-Lucas,Psycho Derek,1
-Lucas,Rachel,1
-Lucas,Ronnie,1
-Lucas,Rusty,1
-Lucas,Tim,1
-Marcus,Skills,1
-Masonboro Player,Nathan,1
-Masonboro Player,Tim,1
-Melody,Nathan,1
-Millie,Mouth,1
-Millie,Owen,1
-Missy,Nick Lachey,1
-Mouth,Rachel,1
-Mouth,Shelley,1
-Mouth,Shelley's Ex,1
-Mouth,Skills,1
-Mouth,Tia,1
-Nathan,Officer Stevens,1
-Nathan,Peyton,1
-Nathan,Poker Players,1
-Nathan,Punch Guy,1
-Nathan,Rachel,1
-Nathan,Sergei,1
-Nathan,Skills,1
-Nathan,Taylor,1
-Nick (teacher),Tia,1
-Nicki,Peyton,1
-Owen,Rachel's dealer,1
-Pete Wentz,Peyton,1
-Peyton,Psycho Derek,1
-Peyton,Ravens Mascot,1
-Police Officer,Tim,1
-Psycho Derek,Real Derek,1
-Quentin,Xavier,1
-Quinn,Taylor,1
-Quinn,Zombie bridesmaid #5,1
-Rachel,Rusty,1
-Rusty,Security Guard #1,1
-Sam,Xavier,1
-Skills,Tim,1
-Tara,Xavier,1
-Ted,Victoria,1
+path,path_count,Source,Target
+|Abercrombie|Brooke|,1,Abercrombie,Brooke
+|Alex|Alexander|,2,Alex,Alexander
+|Alex|Brooke|,1,Alex,Brooke
+|Alex|Chase|,14,Alex,Chase
+|Alex|Chris|,1,Alex,Chris
+|Alex|Clay|,1,Alex,Clay
+|Alex|Josh|,5,Alex,Josh
+|Alex|Julian|,2,Alex,Julian
+|Alex|Mia|,2,Alex,Mia
+|Alex|Millie|,2,Alex,Millie
+|Alex|Peter|,1,Alex,Peter
+|Alexander|Brooke|,1,Alexander,Brooke
+|Alexander|Victoria|,5,Alexander,Victoria
+|Alice|Mouth|,5,Alice,Mouth
+|Andy|Dan|,1,Andy,Dan
+|Andy|Karen|,9,Andy,Karen
+|Anna|Darby|,1,Anna,Darby
+|Anna|Lucas|,5,Anna,Lucas
+|Anna|Peyton|,1,Anna,Peyton
+|Ashley|Bevin|,1,Ashley,Bevin
+|Bankers|Brooke|,1,Bankers,Brooke
+|Bar Patron|Nathan|,1,Bar Patron,Nathan
+|Basketball Team|Lucas|,1,Basketball Team,Lucas
+|Basketball Team|Nathan|,1,Basketball Team,Nathan
+|Bear|Nathan|,1,Bear,Nathan
+|Bevin|Fergie|,1,Bevin,Fergie
+|Bevin|Rachel|,1,Bevin,Rachel
+|Bevin|Skills|,3,Bevin,Skills
+|Billy|Clay|,1,Billy,Clay
+|Billy|Dan|,3,Billy,Dan
+|Billy|Dimitri|,2,Billy,Dimitri
+|Billy|Haley|,1,Billy,Haley
+|Billy|Nathan|,1,Billy,Nathan
+|Billy|Quinn|,1,Billy,Quinn
+|Brooke|Chase|,7,Brooke,Chase
+|Brooke|Chris|,3,Brooke,Chris
+|Brooke|Club Boy|,1,Brooke,Club Boy
+|Brooke|Dan|,3,Brooke,Dan
+|Brooke|Felix|,10,Brooke,Felix
+|Brooke|Haley|,1,Brooke,Haley
+|Brooke|Jock|,1,Brooke,Jock
+|Brooke|Julian|,86,Brooke,Julian
+|Brooke|Lucas|,42,Brooke,Lucas
+|Brooke|Millie|,2,Brooke,Millie
+|Brooke|Missy|,1,Brooke,Missy
+|Brooke|Mouth|,4,Brooke,Mouth
+|Brooke|Nathan|,1,Brooke,Nathan
+|Brooke|Nick (teacher)|,5,Brooke,Nick (teacher)
+|Brooke|Nick Lachey|,1,Brooke,Nick Lachey
+|Brooke|Owen|,2,Brooke,Owen
+|Brooke|Pete Wentz|,1,Brooke,Pete Wentz
+|Brooke|Peyton|,7,Brooke,Peyton
+|Brooke|Psycho Derek|,3,Brooke,Psycho Derek
+|Brooke|Rachel|,5,Brooke,Rachel
+|Brooke|Sam|,1,Brooke,Sam
+|Brooke|Sylvia|,1,Brooke,Sylvia
+|Brooke|Tara|,2,Brooke,Tara
+|Brooke|Ted|,1,Brooke,Ted
+|Brooke|Tia|,1,Brooke,Tia
+|Brooke|Tim|,1,Brooke,Tim
+|Brooke|Xavier|,5,Brooke,Xavier
+|Brooke|Zombie Bridesmaids|,3,Brooke,Zombie Bridesmaids
+|Carrie|Dan|,11,Carrie,Dan
+|Carrie|Deb|,1,Carrie,Deb
+|Carrie|Haley|,2,Carrie,Haley
+|Carrie|Nathan|,2,Carrie,Nathan
+|Chase|Chris|,2,Chase,Chris
+|Chase|Chuck's Dad|,2,Chase,Chuck's Dad
+|Chase|Chuck|,5,Chase,Chuck
+|Chase|Clay|,1,Chase,Clay
+|Chase|Mia|,13,Chase,Mia
+|Chase|Peyton|,2,Chase,Peyton
+|Chase|Tara|,4,Chase,Tara
+|Cheerleader|Mouth|,1,Cheerleader,Mouth
+|Chris|Cinnamon|,1,Chris,Cinnamon
+|Chris|Guitar Tech?|,1,Chris,Guitar Tech?
+|Chris|Haley|,3,Chris,Haley
+|Chris|Lucas|,1,Chris,Lucas
+|Chris|Nathan|,5,Chris,Nathan
+|Chris|Peyton|,1,Chris,Peyton
+|Chris|Poker Players|,1,Chris,Poker Players
+|Chris|Pony|,1,Chris,Pony
+|Chris|Sergei|,1,Chris,Sergei
+|Chris|Strip Club Server|,1,Chris,Strip Club Server
+|Chris|Tara|,3,Chris,Tara
+|Chuck|Chuck's Dad|,1,Chuck,Chuck's Dad
+|Chuck|Jamie|,2,Chuck,Jamie
+|Chuck|Julian|,1,Chuck,Julian
+|Chuck|Nathan|,2,Chuck,Nathan
+|Chuck's Mom|Haley|,1,Chuck's Mom,Haley
+|Clay|Dan|,2,Clay,Dan
+|Clay|David|,1,Clay,David
+|Clay|Ian|,1,Clay,Ian
+|Clay|Katie|,2,Clay,Katie
+|Clay|Kylie|,1,Clay,Kylie
+|Clay|Quinn|,56,Clay,Quinn
+|Clay|Sara|,4,Clay,Sara
+|Conrad|Mouth|,1,Conrad,Mouth
+|Cooper|Dan|,1,Cooper,Dan
+|Cooper|Rachel|,3,Cooper,Rachel
+|Damien|Dan|,1,Damien,Dan
+|Damien|Haley|,2,Damien,Haley
+|Damien|Nathan|,2,Damien,Nathan
+|Dan|Deb|,14,Dan,Deb
+|Dan|Dimitri|,1,Dan,Dimitri
+|Dan|Haley|,2,Dan,Haley
+|Dan|Karen|,8,Dan,Karen
+|Dan|Keith|,4,Dan,Keith
+|Dan|Lucas|,5,Dan,Lucas
+|Dan|Mouth|,1,Dan,Mouth
+|Dan|Mrs. Edwards|,1,Dan,Mrs. Edwards
+|Dan|Nathan|,8,Dan,Nathan
+|Dan|Officer Burns|,1,Dan,Officer Burns
+|Dan|Owen|,1,Dan,Owen
+|Dan|Patty|,1,Dan,Patty
+|Dan|Peyton|,3,Dan,Peyton
+|Dan|Rachel|,8,Dan,Rachel
+|Dan|Skills|,1,Dan,Skills
+|Dan|Thug #2|,1,Dan,Thug #2
+|Dan|Thug #3|,1,Dan,Thug #3
+|Dan|Thug #4|,1,Dan,Thug #4
+|Dan|Thug|,1,Dan,Thug
+|Dan|Whitey|,1,Dan,Whitey
+|Dan's Henchman|Peyton|,1,Dan's Henchman,Peyton
+|Daunte|Haley|,1,Daunte,Haley
+|Daunte|Nathan|,2,Daunte,Nathan
+|David|Lauren|,1,David,Lauren
+|David|Quinn|,4,David,Quinn
+|David|Taylor|,2,David,Taylor
+|Deb|Keith|,1,Deb,Keith
+|Deb|Lucas|,1,Deb,Lucas
+|Deb|Pharmacist|,1,Deb,Pharmacist
+|Deb|Skills|,10,Deb,Skills
+|Dimitri|Nathan|,4,Dimitri,Nathan
+|Dimitri|Zoran|,1,Dimitri,Zoran
+|Erica|Mouth|,3,Erica,Mouth
+|Fan|Nathan|,1,Fan,Nathan
+|Felix|Keith|,1,Felix,Keith
+|Felix|Lucas|,2,Felix,Lucas
+|Felix|Mouth|,1,Felix,Mouth
+|Fergie|Jamie|,1,Fergie,Jamie
+|Friend #1|Lucas|,1,Friend #1,Lucas
+|Friend #1|Nathan|,1,Friend #1,Nathan
+|Friend #1|Rachel|,1,Friend #1,Rachel
+|Friend #1|Security Guard #2|,1,Friend #1,Security Guard #2
+|Gabe|Lucas|,1,Gabe,Lucas
+|Gigi|Mouth|,2,Gigi,Mouth
+|Gigi|Nathan|,1,Gigi,Nathan
+|Girls|Sam|,1,Girls,Sam
+|Greg|Nathan|,1,Greg,Nathan
+|Greg's friend|Nathan|,1,Greg's friend,Nathan
+|Grubbs|Miranda|,3,Grubbs,Miranda
+|Haley|Lucas|,3,Haley,Lucas
+|Haley|Nathan|,167,Haley,Nathan
+|Haley|Officer Stevens|,1,Haley,Officer Stevens
+|Haley|Rachel|,2,Haley,Rachel
+|Haley|Randy|,1,Haley,Randy
+|Haley|Renee|,1,Haley,Renee
+|Haley|Sue|,1,Haley,Sue
+|Haley|Taylor|,2,Haley,Taylor
+|Ian|Julian|,1,Ian,Julian
+|Ian|Nathan|,1,Ian,Nathan
+|J-Fed|Nathan|,1,J-Fed,Nathan
+|J-Fed|Quentin|,1,J-Fed,Quentin
+|Jack|Sam|,2,Jack,Sam
+|Jack|Xavier|,1,Jack,Xavier
+|Jake|Nicki|,1,Jake,Nicki
+|Jake|Peyton|,15,Jake,Peyton
+|Jamie|Junk|,1,Jamie,Junk
+|Jerome|Nathan|,1,Jerome,Nathan
+|Jimmy|Rusty|,3,Jimmy,Rusty
+|Josh|Other Guy|,1,Josh,Other Guy
+|Jules|Karen|,1,Jules,Karen
+|Jules|Keith|,7,Jules,Keith
+|Julian|Loud Drunk|,1,Julian,Loud Drunk
+|Julian|Lucas|,1,Julian,Lucas
+|Julian|Missy|,1,Julian,Missy
+|Julian|Mouth|,2,Julian,Mouth
+|Julian|Nick Lachey|,1,Julian,Nick Lachey
+|Julian|Officer Stevens|,1,Julian,Officer Stevens
+|Julian|Peter|,1,Julian,Peter
+|Julian|Peyton|,1,Julian,Peyton
+|Julian|Skills|,1,Julian,Skills
+|Julian|Xavier|,1,Julian,Xavier
+|Julian|Zombie Bridesmaids|,4,Julian,Zombie Bridesmaids
+|Karen|Keith|,11,Karen,Keith
+|Karen|Larry Sawyer|,1,Karen,Larry Sawyer
+|Karen|Lucas|,1,Karen,Lucas
+|Karen|Whitey|,1,Karen,Whitey
+|Katie|Quinn|,4,Katie,Quinn
+|Kylie|Quinn|,1,Kylie,Quinn
+|Lauren|Mouth|,1,Lauren,Mouth
+|Lauren|Skills|,2,Lauren,Skills
+|Lindsey|Lucas|,16,Lindsey,Lucas
+|Lindsey|Peyton|,1,Lindsey,Peyton
+|Lucas|Masonboro Player|,1,Lucas,Masonboro Player
+|Lucas|Nathan|,11,Lucas,Nathan
+|Lucas|Nicki|,1,Lucas,Nicki
+|Lucas|Peyton|,70,Lucas,Peyton
+|Lucas|Psycho Derek|,1,Lucas,Psycho Derek
+|Lucas|Rachel|,1,Lucas,Rachel
+|Lucas|Ronnie|,1,Lucas,Ronnie
+|Lucas|Rusty|,1,Lucas,Rusty
+|Lucas|Tim|,1,Lucas,Tim
+|Marcus|Skills|,1,Marcus,Skills
+|Masonboro Player|Nathan|,1,Masonboro Player,Nathan
+|Masonboro Player|Tim|,1,Masonboro Player,Tim
+|Melody|Nathan|,1,Melody,Nathan
+|Millie|Mouth|,34,Millie,Mouth
+|Millie|Owen|,1,Millie,Owen
+|Missy|Nick Lachey|,1,Missy,Nick Lachey
+|Mouth|Rachel|,3,Mouth,Rachel
+|Mouth|Shelley's Ex|,1,Mouth,Shelley's Ex
+|Mouth|Shelley|,4,Mouth,Shelley
+|Mouth|Skills|,1,Mouth,Skills
+|Mouth|Tia|,1,Mouth,Tia
+|Nathan|Officer Stevens|,2,Nathan,Officer Stevens
+|Nathan|Peyton|,6,Nathan,Peyton
+|Nathan|Poker Players|,1,Nathan,Poker Players
+|Nathan|Punch Guy|,1,Nathan,Punch Guy
+|Nathan|Rachel|,2,Nathan,Rachel
+|Nathan|Sergei|,2,Nathan,Sergei
+|Nathan|Skills|,1,Nathan,Skills
+|Nathan|Taylor|,1,Nathan,Taylor
+|Nick (teacher)|Tia|,1,Nick (teacher),Tia
+|Nicki|Peyton|,1,Nicki,Peyton
+|Owen|Rachel's dealer|,1,Owen,Rachel's dealer
+|Pete Wentz|Peyton|,3,Pete Wentz,Peyton
+|Peyton|Psycho Derek|,7,Peyton,Psycho Derek
+|Peyton|Ravens Mascot|,1,Peyton,Ravens Mascot
+|Police Officer|Tim|,1,Police Officer,Tim
+|Psycho Derek|Real Derek|,1,Psycho Derek,Real Derek
+|Quentin|Xavier|,1,Quentin,Xavier
+|Quinn|Taylor|,1,Quinn,Taylor
+|Quinn|Zombie Bridesmaids|,1,Quinn,Zombie Bridesmaids
+|Rachel|Rusty|,1,Rachel,Rusty
+|Rusty|Security Guard #1|,1,Rusty,Security Guard #1
+|Sam|Xavier|,2,Sam,Xavier
+|Skills|Tim|,1,Skills,Tim
+|Tara|Xavier|,1,Tara,Xavier
+|Ted|Victoria|,2,Ted,Victoria
