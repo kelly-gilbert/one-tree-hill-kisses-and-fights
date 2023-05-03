@@ -46,8 +46,8 @@ path,path_count,Source,Target
 |Brooke|Missy|,1,Brooke,Missy
 |Brooke|Mouth|,4,Brooke,Mouth
 |Brooke|Nathan|,1,Brooke,Nathan
-|Brooke|Nick (teacher)|,5,Brooke,Nick (teacher)
 |Brooke|Nick Lachey|,1,Brooke,Nick Lachey
+|Brooke|Nick|,5,Brooke,Nick
 |Brooke|Owen|,2,Brooke,Owen
 |Brooke|Pete Wentz|,1,Brooke,Pete Wentz
 |Brooke|Peyton|,7,Brooke,Peyton
@@ -152,7 +152,7 @@ path,path_count,Source,Target
 |Greg's friend|Nathan|,1,Greg's friend,Nathan
 |Grubbs|Miranda|,3,Grubbs,Miranda
 |Haley|Lucas|,3,Haley,Lucas
-|Haley|Nathan|,167,Haley,Nathan
+|Haley|Nathan|,169,Haley,Nathan
 |Haley|Officer Stevens|,1,Haley,Officer Stevens
 |Haley|Rachel|,2,Haley,Rachel
 |Haley|Randy|,1,Haley,Randy
@@ -195,9 +195,9 @@ path,path_count,Source,Target
 |Lindsey|Lucas|,16,Lindsey,Lucas
 |Lindsey|Peyton|,1,Lindsey,Peyton
 |Lucas|Masonboro Player|,1,Lucas,Masonboro Player
-|Lucas|Nathan|,11,Lucas,Nathan
+|Lucas|Nathan|,12,Lucas,Nathan
 |Lucas|Nicki|,1,Lucas,Nicki
-|Lucas|Peyton|,70,Lucas,Peyton
+|Lucas|Peyton|,72,Lucas,Peyton
 |Lucas|Psycho Derek|,1,Lucas,Psycho Derek
 |Lucas|Rachel|,1,Lucas,Rachel
 |Lucas|Ronnie|,1,Lucas,Ronnie
@@ -223,7 +223,7 @@ path,path_count,Source,Target
 |Nathan|Sergei|,2,Nathan,Sergei
 |Nathan|Skills|,1,Nathan,Skills
 |Nathan|Taylor|,1,Nathan,Taylor
-|Nick (teacher)|Tia|,1,Nick (teacher),Tia
+|Nick|Tia|,1,Nick,Tia
 |Nicki|Peyton|,1,Nicki,Peyton
 |Owen|Rachel's dealer|,1,Owen,Rachel's dealer
 |Pete Wentz|Peyton|,3,Pete Wentz,Peyton

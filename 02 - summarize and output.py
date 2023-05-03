@@ -41,6 +41,10 @@ INPUT_PATH = r'.\inputs'
 OUTPUT_PATH = r'.\outputs'
 
 
+# hard-coded renames
+# if not in this list, the character's first name will be used if they had >= 5 appearances. 
+# Otherwise, the character's full name will be used
+
 renames = { 'Alice Day' : 'Alice',
             'Bevin Mirskey' : 'Bevin',
             'Billy' : 'Billy',
@@ -78,9 +82,10 @@ creds = service_account.ServiceAccountCredentials.from_json_keyfile_name(CREDS_P
 client = gspread.authorize(creds)
 
 
-# read in the event data
+# read in the event data (remove null event IDs)
 sheet = client.open(WORKBOOK_NAME).worksheet('data')
-df_event_raw = pd.DataFrame(sheet.get_all_records())
+df_event_raw = ( pd.DataFrame(sheet.get_all_records())
+                   .query("event_id == event_id") )
 
 df_event_raw['main_type'] = df_event_raw['type'].str.extract('(.*?)(?:$|\s)', expand=False)
 
@@ -135,7 +140,6 @@ df_role['role_name_clean'] = np.where(df_role['role_name'].isin(['Themselves', '
                                       df_role['role_name']))))
 
 
-
 # --------------------------------------------------------------------------------------------------
 # join event and summarized imdb data
 # --------------------------------------------------------------------------------------------------
@@ -185,7 +189,9 @@ df_out = ( df_event.merge(df_ep_counts,
                    .fillna(1) )
 
 
-# export the data
+# --------------------------------------------------------------------------------------------------
+# output event data
+# --------------------------------------------------------------------------------------------------
 df_out.to_csv(path.join(OUTPUT_PATH, 'event-person.csv'), index=False)
 
 
@@ -231,6 +237,7 @@ df_ntwk = df_ntwk.query("(p1_partners > 1) | (p2_partners > 1)")
 # output for gephi
 #     gephi uses size to set the radius, whereas Tableau uses the size to set the area,
 #     so the size in the output is set to radius = sqrt( size / pi)
+
 ( df_ntwk[['person_1', 'p1_max']].drop_duplicates()
      .rename(columns={'p1_max' : 'size',
                       'person_1' : 'label'})
